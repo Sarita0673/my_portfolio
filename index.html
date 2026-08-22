@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sarita Bandgar</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Sarita Bandgar</span></h1>
+            <p>
+                I am a BCA student interested in FrontEnd development
+                and software development.
+            </p>
+
+            <a href="#about" class="btn">Get to Know</a>
+        </div>
+
+        <div class="home-image">
+            <img src="sarita.png"alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-box">
+            <p>
+                I am a passionate BCA student interested in web development
+                and emerging technologies. I enjoy learning new skills,
+                exploring creative ideas, and developing user-friendly
+                websites. I have a strong interest in improving my
+                technical knowledge through practical projects and
+                continuous learning.
+            </p>
+
+            <div class="career-box">
+                <h3>Career Objective:</h3>
+                <p>
+                    To build a successful career in the IT industry by
+                    enhancing my technical skills, gaining practical
+                    experience, and continuously learning new technologies.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-container">
+
+            <div class="education-card">
+                <h3>Bachelor of Computer Application (BCA)</h3>
+                <p>DR Mane College Kagal</p>
+                <small>Currently Pursuing</small>
+            </div>
+
+            <div class="education-card">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p>Maharashtra State Board</p>
+                <small>Completed</small>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JAVASCRIPT</div>
+            <div class="skill">Basic Python</div>
+            <div class="skill">Website Design</div>
+            <div class="skill">SQL</div>
+            <div class="skill">DBMS,RDBMS</div>
+            <div class="skill">Communication Skills</div>
+            <div class="skill">Microsoft Excel</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Dairy milk collection and biloing system</h3>
+
+                <p>
+                    The Dairy Milk Collection and Billing System is a software project developed to manage the daily milk collection and billing activities of a dairy. The system maintains details of milk suppliers, records daily milk quantity and quality, calculates the milk price based on the applicable rate, and generates billing information.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <button onclick="viewProject('ShopEase')">
+                    View Live
+                </button>
+            </div>
+
+            <div class="project-card">
+                <h3>College Website</h3>
+
+                <p>
+                    A College Website is a simple and user-friendly web
+                    application developed using HTML and CSS. The main
+                    purpose of this project is to provide information
+                    about college activities, courses, facilities and
+                    other important information.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <button onclick="viewProject('College Website')">
+                    View Live
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+
+                <p>
+                    Have an idea, project, or opportunity?
+                    Feel free to reach out and let's create
+                    something meaningful together.
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    saritabandgar9@gmail.com
+                </p>
+
+                <p>
+                    <strong>Location:</strong>
+                    shendur , Maharashtra, India
+                </p>
+            </div>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Your Message"
+                    rows="6"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Sarita Mali. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
